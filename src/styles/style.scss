@@ -1,0 +1,169 @@
+@font-face {
+  font-family: 'Minecraft';
+  // src: url('/assets/fonts/mcfont.eot');
+  src: url('/assets/fonts/mcfont.ttf')  format('truetype');
+  // src: url('/assets/fonts/mcfont.eot?#iefix') format('embedded-opentype'),
+  //      url('/assets/fonts/mcfont.woff') format('woff'),
+  //      url('/assets/fonts/mcfont.ttf')  format('truetype'),
+  //      url('/assets/fonts/mcfont.svg#svgFontName') format('svg');
+}
+
+.web-bg {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -99999;
+  background-image: url('/assets/img/bg.jpg');
+  background-size: cover;
+  background-position-x: center;
+}
+
+.splash {
+  color: #ffff00;
+  text-shadow: 2px 2px #4C4C4C;
+  font-size: 1.05em;
+  position: absolute;
+  // bottom: -1em;
+  // right: -5em;
+  bottom: 0em;
+  right: -3.5em;
+
+  text-align: center;
+  transform: scale(1.0) rotate(-30deg);
+  max-width: 14em;
+  min-width: 2em;
+  word-wrap: break-word;
+  animation: splashW 1s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes splashW {
+  0% {
+    transform: scale(1.0) rotate(-30deg);
+  }
+  50% {
+    transform: scale(1.25) rotate(-30deg);
+  }
+  100% {
+    transform: scale(1.0) rotate(-30deg);
+  }
+}
+
+.header-c {
+  top: 0;
+  width: 100%;
+  left: 0;
+  position: absolute !important;
+}
+
+html, body {
+  font-family: 'Minecraft' !important;
+  padding: 0em 0em 3em 0em;
+  width: 100% !important;
+  overflow-x: hidden;
+}
+
+nav.navi {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  // background-image: url('/assets/img/stone.jpg');
+  background-size: 100px;
+  min-height: 100px;
+}
+
+.logo {
+  position: absolute;
+  text-align: center;
+  margin-top: 5em;
+  img {
+    width: 100%;
+  }
+}
+
+.menu-zone {
+  margin-top: 4em;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.button {
+  height: 40px;
+  width: 100%;
+  outline: 2px solid black;
+  position: relative;
+  margin: 0;
+  display: inline-block;
+  background-image: url('/assets/img/buttons/button_center.png');
+  background-repeat: repeat;
+  padding: 0;
+  font-family: Minecraft;
+  text-align: center;
+  color: #efefef !important;
+  text-shadow: 3px 3px #4C4C4C;
+  border-bottom: 4px solid #565656;
+  border-right: 2px solid #565656;
+  border-left: 2px solid #AAA;
+  border-top: 2px solid #AAA;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.button span {
+  position: relative;
+  line-height: 40px;
+  font-size: 1.0em;
+  bottom: 3px;
+}
+
+.button:hover {
+  border-bottom: 4px solid #59639A;
+  border-right: 2px solid #59639A;
+  border-left: 2px solid #BDC6FF;
+  border-top: 2px solid #BDC6FF;
+  background-image: url('/assets/img/buttons/button_active_center.png');
+  color: #FFFFA0;
+}
+
+.line {
+  margin-top: 10px;
+  width: 100%;
+  height: 1px;
+  background: #aaa;
+}
+
+.button-block, .content-block {
+  margin-top: 1em;
+}
+
+.content-block {
+  .wrapper {
+    border: 3px solid #000;
+    padding: 1em 1em;
+    background-image: url('/assets/img/stone.jpg');
+    background-size: 50px;
+    // background-color: rgba($color: #fff, $alpha: 0.5);
+    color: #fff;
+    .title {
+      color: #fffd38;
+      font-weight: 700;
+      margin-bottom: 1em;
+    }
+    p {
+      margin: 0;
+      line-height: 1.75em;
+    }
+  }
+}
+
+.map {
+  margin-top: 2em;
+}
