@@ -53,7 +53,7 @@ class App extends Component {
             <div className="wrapper">
               <h3 className="title">Date Time</h3>
               <p>Monday&nbsp; 20th&nbsp; November &nbsp;2017</p>
-               <p><img src="http://www.minecraftopia.com/images/blocks/clock.png" width="30px" style={{
+               <p><img src="/msp-kmutt-2017/assets/img/clock.png" width="30px" style={{
                  position: 'relative',
                  left: '-5px',
                }}/> 1PM - 5PM</p>
