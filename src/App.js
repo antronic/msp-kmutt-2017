@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 import './styles/style.scss';
 
-import Navigation from './components/Navigation';
 
 class App extends Component {
   randomSplash() {
