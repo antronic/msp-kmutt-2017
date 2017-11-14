@@ -3,6 +3,9 @@ import React, { Component } from 'react';
 import './styles/style.scss';
 
 
+document.title = 'First Hello! by MSP KMUTT';
+
+
 class App extends Component {
   randomSplash() {
     const splashMsg = ["1K in 24h!","[DO NOT DISTRIBUTE!]","Finally beta!","Happy new year!","Merry X-mas!","missingno","PC Gamer Demo!","OOoooOOOoooo! Spooky!","Minecraft is love, Minecraft is life","APRIL FOOLS!","700+ hits on YouTube!","Absolutely dragon free!","Almost java 6!","Now java 6!","Now Java 6!","Coming soon!","More than 5000 sold!","More than 25000 sold!","Notch <3 Ez!","\"Noun\" is an autonym!","Now supports ÅÄÖ!","OpenGL 1.1!","OpenGL 1.2!","Rude with two dudes with food!","SOPA means LOSER in Swedish","Superfragilisticexpialidocious!","That\'s not a moon!","Tyrian would love it!","When it\'s finished!","This is good for realms.","Cooler than Spock!","0% sugar!","Now with 100% more yellow text![27]","One star! Deal with it notch!","Haha, LOL!","Play Minecraft, Watch Topgear, Get Pig!","Play minecraftApp, Watch Topgear, Get Pig!","OpenGL ES 1.1!","Almost C++11!"];
