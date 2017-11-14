@@ -17,14 +17,14 @@ class App extends Component {
         <div className="web-bg"></div>
         <div className="header-c container-fluid row">
           <div className="col-6">
-            <img src="/assets/img/microsoft_PNG19.png" height="70px"/>
+            <img src="/msp-kmutt-2017/assets/img/microsoft_PNG19.png" height="70px"/>
           </div>
           <div className="col-6 text-right">
-            <img src="/assets/img/kmutt-color-wh.png" height="70px"/>
+            <img src="/msp-kmutt-2017/assets/img/kmutt-color-wh.png" height="70px"/>
           </div>
         </div>
         <div className="col-10 offset-1 col-sm-6 offset-sm-3 col-md-4 offset-md-4 logo">
-          <img src="/assets/img/minecraft_logo.png" />
+          <img src="/msp-kmutt-2017/assets/img/minecraft_logo.png" />
           <p className="splash">{this.randomSplash()}</p>
         </div>
 
