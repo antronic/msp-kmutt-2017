@@ -1,0 +1,15 @@
+{
+  "short_name": "MSP KMUTT",
+  "name": "First Hello! by MSP KMUTT",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#fec33b",
+  "background_color": "#ffffff"
+}
